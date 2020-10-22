@@ -1,0 +1,21 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.1",
+  "author": "Pierre",
+  "description": "Découvrir Parcel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "buildsubfolder": "parcel build index.html --public-url ./"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "sass": "^1.27.0"
+  },
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "functions": "^1.0.9"
+  }
+}
